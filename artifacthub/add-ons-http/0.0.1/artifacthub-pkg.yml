@@ -1,0 +1,22 @@
+# Artifact Hub package metadata file
+# https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml
+version: 0.0.1
+name: keda-add-ons-http
+displayName: KEDA HTTP
+createdAt: 2021-02-09T10:00:00Z
+description: Event-based autoscaler for HTTP workloads on Kubernetes
+license: Apache-2.0
+homeURL: https://github.com/kedacore/http-add-on
+keywords:
+  - keda
+  - http
+links:
+  - name: GitHub
+    url: https://github.com/kedacore/http-add-on
+changes:
+  - kind: added
+    description: Initial version
+provider:
+  name: KEDA
+recommendations:
+  - url: https://artifacthub.io/packages/helm/kedacore/keda

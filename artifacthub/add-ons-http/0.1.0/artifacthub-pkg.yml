@@ -1,0 +1,28 @@
+# Artifact Hub package metadata file
+# https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml
+version: 0.1.0
+name: keda-add-ons-http
+displayName: KEDA HTTP
+createdAt: 2021-06-24T10:00:00Z
+description: Event-based autoscaler for HTTP workloads on Kubernetes
+license: Apache-2.0
+homeURL: https://github.com/kedacore/http-add-on
+keywords:
+  - keda
+  - http
+  - autoscaling
+links:
+  - name: GitHub
+    url: https://github.com/kedacore/http-add-on
+  - name: Helm Registry
+    url: https://github.com/kedacore/charts
+changes:
+  - kind: changed
+    description: This is the first beta version of the KEDA HTTP Add-on! It's been a while since our last release, which was 0.0.1. Since then, we've made big improvements to nearly every area of this project.
+    links:
+      - name: Github Release
+        url: https://github.com/kedacore/http-add-on/releases/tag/0.1.0
+provider:
+  name: KEDA
+recommendations:
+  - url: https://artifacthub.io/packages/helm/kedacore/keda
