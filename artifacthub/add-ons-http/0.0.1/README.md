@@ -1,0 +1,1 @@
+Alpha 1 is the first official release of the KEDA HTTP Add On, and is intended as a preview for developers. With this release, we're inviting community members to try out the technology, report bugs, and generally give us feedback.

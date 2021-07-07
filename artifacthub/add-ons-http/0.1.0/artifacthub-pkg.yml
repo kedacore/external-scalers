@@ -16,8 +16,6 @@ links:
     url: https://github.com/kedacore/http-add-on
   - name: Helm Registry
     url: https://github.com/kedacore/charts
-readme: |
-  KEDA HTTP Add-On allows Kubernetes users to automatically scale their HTTP servers up and down (including to/from zero) based on incoming HTTP traffic.
 changes:
   - kind: changed
     description: This is the first beta version of the KEDA HTTP Add-on! It's been a while since our last release, which was 0.0.1. Since then, we've made big improvements to nearly every area of this project.
