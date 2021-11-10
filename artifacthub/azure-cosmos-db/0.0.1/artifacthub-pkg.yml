@@ -1,0 +1,24 @@
+# Artifact Hub package metadata file
+# https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml
+version: 0.0.1
+name: keda-external-scaler-azure-cosmos-db
+displayName: KEDA External Scaler for Azure Cosmos DB
+createdAt: 2021-11-11T00:00:00Z
+description: Scale applications based on changes to Azure Cosmos DB container data.
+license: Apache-2.0
+homeURL: https://github.com/kedacore/keda-external-scaler-azure-cosmos-db
+prerelease: true
+keywords:
+  - keda
+  - azure-cosmos-db
+  - autoscaling
+links:
+  - name: GitHub
+    url: https://github.com/kedacore/keda-external-scaler-azure-cosmos-db
+changes:
+  - kind: added
+    description: Initial version
+provider:
+  name: KEDA
+recommendations:
+  - url: https://artifacthub.io/packages/helm/kedacore/keda
