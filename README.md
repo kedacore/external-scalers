@@ -5,7 +5,7 @@
 We provide a set of external scalers you can use with KEDA:
 
 - HTTP Add On ([GitHub](https://github.com/kedacore/http-add-on))
-- Azure Cosmos DB ([GitHub](https://github.com/kedacore/keda-external-scaler-azure-cosmos-db))
+- Azure Cosmos DB ([GitHub](https://github.com/kedacore/external-scaler-azure-cosmos-db))
 
 ## Explore external scalers on Artifact Hub
 
