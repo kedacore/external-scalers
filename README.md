@@ -1,9 +1,31 @@
-# External Scaler Community
+# External Scalers Community
+
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/keda-official-external-scalers)](https://artifacthub.io/packages/search?repo=keda-official-external-scalers)
+
+We provide a set of external scalers you can use with KEDA:
+
+- HTTP Add On ([GitHub](https://github.com/kedacore/http-add-on))
+- Azure Cosmos DB ([GitHub](https://github.com/kedacore/keda-external-scaler-azure-cosmos-db))
+
+## Explore external scalers on Artifact Hub
+
+Curious about what external scalers you can use? Artifact Hub is here to help!
+
+![Artifact Hub](./media/artifact-hub.png)
+
+You can browse all published external scalers for KEDA [here](https://artifacthub.io/packages/search?kind=8&sort=relevance&page=1).
+
+### Listing an external scaler on Artifact Hub
+
+Everyone is encouraged to list their external scaler on Artifact Hub which will help others to find it.
+
+We are actively working on listing all external scalers from Artifact Hub on our website to improve discovery. ([issue](https://github.com/kedacore/keda-docs/issues/577))
+
+If you are intersted, feel free to read the [Artifact Hub documentation](https://artifacthub.io/docs/topics/repositories/#keda-scalers-repositories) or browse our official scaler configuration in the repo.
+
+## Scalers from the community
 
 Explore external scalers built by the community.
 
 - ActiveMQ Artemis ([GitHub](https://github.com/balchua/artemis-ext-scaler))
-- Azure Cosmos DB ([GitHub](https://github.com/kedacore/keda-external-scaler-azure-cosmos-db))
-- Azure Durable Functions ([GitHub](https://github.com/kedacore/keda-external-scaler-azure-durable-functions))
 - GitHub Runners ([GitHub](https://github.com/devjoes/github-runner-autoscaler))
-- HTTP ([GitHub](https://github.com/kedacore/http-add-on))
