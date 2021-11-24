@@ -2,5 +2,5 @@
 # See https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-repo.yml
 repositoryID: e7f9f3ad-5080-4095-8ff9-98a0b71371b4
 owners:
-  - name: Tom Kerkhove
-    email: kerkhove.tom@gmail.com
+  - name: KEDA Maintainers
+    email: cncf-keda-maintainers@lists.cncf.io
