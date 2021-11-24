@@ -25,10 +25,10 @@ While KEDA ships with a set of built-in scalers, it also allows users to extend 
     helm install keda kedacore/keda --namespace keda --create-namespace
     ```
 
-1. Install 'Cosmos DB scaler' Helm chart.
+1. Install Azure Cosmos DB external scaler Helm chart.
 
     ```shell
-    helm install cosmosdb-scaler kedacore/keda-external-scaler-azure-cosmos-db --namespace keda --create-namespace
+    helm install external-scaler-azure-cosmos-db kedacore/external-scaler-azure-cosmos-db --namespace keda --create-namespace
     ```
 
 ### Create `ScaledObject` Resource
@@ -43,7 +43,7 @@ The specification below describes the `trigger` metadata in `ScaledObject` resou
   triggers:
     - type: external
       metadata:
-        scalerAddress: keda-external-scaler-azure-cosmos-db.keda:4050 # Mandatory. Address of the external scaler service.
+        scalerAddress: external-scaler-azure-cosmos-db.keda:4050 # Mandatory. Address of the external scaler service.
         connection: <connection>               # Mandatory. Connection string of Cosmos DB account with monitored container.
         databaseId: <database-id>              # Mandatory. ID of Cosmos DB database containing monitored container.
         containerId: <container-id>            # Mandatory. ID of monitored container.
@@ -55,6 +55,6 @@ The specification below describes the `trigger` metadata in `ScaledObject` resou
 
 ## Further Reading
 
-- [Documentation](https://github.com/kedacore/keda-external-scaler-azure-cosmos-db#readme)
-- [Release Notes](https://github.com/kedacore/keda-external-scaler-azure-cosmos-db/releases/tag/v0.1.0)
-- [Example Usage](https://github.com/kedacore/keda-external-scaler-azure-cosmos-db/tree/main/src/Scaler.Demo)
+- [Documentation](https://github.com/kedacore/external-scaler-azure-cosmos-db#readme)
+- [Release Notes](https://github.com/kedacore/external-scaler-azure-cosmos-db/releases/tag/v0.1.0)
+- [Example Usage](https://github.com/kedacore/external-scaler-azure-cosmos-db/tree/main/src/Scaler.Demo)

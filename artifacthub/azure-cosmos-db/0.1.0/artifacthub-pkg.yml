@@ -1,20 +1,23 @@
 # Artifact Hub package metadata file
 # https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml
 version: 0.1.0
-name: keda-external-scaler-azure-cosmos-db
+name: external-scaler-azure-cosmos-db
 displayName: KEDA External Scaler for Azure Cosmos DB
-createdAt: 2021-11-11T00:00:00Z
-description: Scale applications based on changes to Azure Cosmos DB container data.
+createdAt: 2021-11-24T11:00:00Z
+description: Event-based autoscaler for Azure Cosmos DB change feed consumer applications
 license: Apache-2.0
-homeURL: https://github.com/kedacore/keda-external-scaler-azure-cosmos-db
+homeURL: https://github.com/kedacore/external-scaler-azure-cosmos-db
 prerelease: true
 keywords:
   - keda
+  - azure
   - azure-cosmos-db
   - autoscaling
 links:
+  - name: Helm Registry
+    url: https://github.com/kedacore/charts
   - name: GitHub
-    url: https://github.com/kedacore/keda-external-scaler-azure-cosmos-db
+    url: https://github.com/kedacore/external-scaler-azure-cosmos-db
 install: |
   # Installation Steps
 
@@ -31,13 +34,13 @@ install: |
       helm install keda kedacore/keda --namespace keda --create-namespace
       ```
 
-  1. Install 'Cosmos DB scaler' Helm chart.
+  1. Install Azure Cosmos DB external scaler Helm chart.
 
       ```shell
-      helm install cosmosdb-scaler kedacore/keda-external-scaler-azure-cosmos-db --namespace keda --create-namespace
+      helm install external-scaler-azure-cosmos-db kedacore/external-scaler-azure-cosmos-db --namespace keda --create-namespace
       ```
 
-  Please refer to the [setup instructions](https://github.com/kedacore/keda-external-scaler-azure-cosmos-db#readme) for more details.
+  Please refer to the [setup instructions](https://github.com/kedacore/external-scaler-azure-cosmos-db#readme) for more details.
 
 changes:
   - kind: added
