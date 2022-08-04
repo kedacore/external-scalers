@@ -19,7 +19,7 @@ You can browse all published external scalers for KEDA [here](https://artifacthu
 
 Everyone is encouraged to list their external scaler on Artifact Hub which will help others to find it.
 
-We are actively working on listing all external scalers from Artifact Hub on our website to improve discovery. ([issue](https://github.com/kedacore/keda-docs/issues/577))
+The KEDA website provides an [overview of all the available external scalers](https://keda.sh/docs/latest/scalers/) that are listed on Artifact Hub.
 
 If you are intersted, feel free to read the [Artifact Hub documentation](https://artifacthub.io/docs/topics/repositories/#keda-scalers-repositories) or browse our official scaler configuration in the repo.
 
