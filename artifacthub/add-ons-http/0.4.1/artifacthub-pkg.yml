@@ -43,4 +43,4 @@ install: |
 
   Finally, install the KEDA HTTP Addon:
 
-  $ helm install http-add-on kedacore/keda-add-ons-http --namespace <your namespace>
+  $ helm install http-add-on kedacore/keda-add-ons-http --version 0.4.1 --namespace <your namespace>
