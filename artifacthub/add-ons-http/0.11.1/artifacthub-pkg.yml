@@ -1,0 +1,46 @@
+# Artifact Hub package metadata file
+# https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml
+version: 0.11.1
+name: keda-add-ons-http
+displayName: KEDA HTTP
+createdAt: 2025-10-20T10:00:00Z
+description: Event-based autoscaler for HTTP workloads on Kubernetes
+license: Apache-2.0
+homeURL: https://github.com/kedacore/http-add-on
+keywords:
+  - keda
+  - http
+  - autoscaling
+links:
+  - name: GitHub
+    url: https://github.com/kedacore/http-add-on
+  - name: Helm Registry
+    url: https://github.com/kedacore/charts
+changes:
+  - kind: changed
+    description: New release
+    links:
+      - name: GitHub release
+        url: https://github.com/kedacore/http-add-on/releases/tag/v0.11.1
+provider:
+  name: KEDA
+recommendations:
+  - url: https://artifacthub.io/packages/helm/kedacore/keda
+install: |
+  You'll find abridged installation instructions for Helm here.
+  To find detailed instructions, please see:
+  https://github.com/kedacore/http-add-on/blob/main/docs/install.md
+
+  The KEDA HTTP Addon requires KEDA core to function. First,
+  ensure that your Helm repositories are properly configured:
+
+  $ helm repo add kedacore https://kedacore.github.io/charts
+  $ helm repo update
+
+  Next, install KEDA core:
+
+  $ helm install keda kedacore/keda --namespace <your namespace> --create-namespace
+
+  Finally, install the KEDA HTTP Addon:
+
+  $ helm install http-add-on kedacore/keda-add-ons-http --version 0.11.1 --namespace <your namespace>
