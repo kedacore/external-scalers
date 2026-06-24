@@ -30,3 +30,4 @@ Explore external scalers built by the community.
 - ActiveMQ Artemis ([GitHub](https://github.com/balchua/artemis-ext-scaler))
 - Durable Tasks/Functions with Azure Storage ([Artifact Hub](https://artifacthub.io/packages/keda-scaler/wsugarman-keda-scalers/durabletask-azurestorage-scaler))
 - GitHub Runners ([GitHub](https://github.com/devjoes/github-runner-autoscaler))
+- LLM inference (vLLM KV-cache + request-queue saturation) ([GitHub](https://github.com/kornsour/keda-inference-scaler))
